@@ -487,3 +487,16 @@ jobs:
 3 - Crar uma nova branch e realizar um commit
 
 4 - Solicitar e aprova um pull request do merge da nova branch com a main
+
+
+git init
+
+git remote add origin https://github.com/CarlosLopes88/02_tcf4_infra_documentdb.git
+
+git add .
+
+git commit -m "subida infra eks"
+
+git branch -M main
+
+git push -u origin main
