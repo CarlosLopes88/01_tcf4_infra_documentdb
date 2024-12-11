@@ -405,7 +405,7 @@ resource "aws_docdb_cluster_instance" "microservice_pedidopgto_instances" {
   }
 }
 
-# Outputs
+# Outputs comentário
 # Exibe o endpoint do DocumentDB no Terraform para o microserviço Pedidos e Pagamentos.
 output "docdb_microservice_pedidopgto_endpoint" {
   value       = aws_docdb_cluster.microservice_pedidopgto.endpoint
